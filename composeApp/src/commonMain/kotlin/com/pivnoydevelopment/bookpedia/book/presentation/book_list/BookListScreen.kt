@@ -37,7 +37,7 @@ import bookpedia.composeapp.generated.resources.favorites
 import bookpedia.composeapp.generated.resources.no_favorite_books
 import bookpedia.composeapp.generated.resources.no_search_results
 import bookpedia.composeapp.generated.resources.search_results
-import com.pivnoydevelopment.bookpedia.book.domain.Book
+import com.pivnoydevelopment.bookpedia.book.domain.model.Book
 import com.pivnoydevelopment.bookpedia.book.presentation.book_list.components.BookList
 import com.pivnoydevelopment.bookpedia.book.presentation.book_list.components.BookSearchBar
 import com.pivnoydevelopment.bookpedia.core.presentation.DarkBlue

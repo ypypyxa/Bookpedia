@@ -1,4 +1,4 @@
-package com.pivnoydevelopment.bookpedia.book.domain
+package com.pivnoydevelopment.bookpedia.book.domain.model
 
 data class Book(
     val id: String,

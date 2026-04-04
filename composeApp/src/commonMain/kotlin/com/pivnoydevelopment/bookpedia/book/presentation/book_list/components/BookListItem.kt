@@ -36,7 +36,7 @@ import androidx.compose.ui.unit.dp
 import bookpedia.composeapp.generated.resources.Res
 import bookpedia.composeapp.generated.resources.ic_book_error
 import coil3.compose.rememberAsyncImagePainter
-import com.pivnoydevelopment.bookpedia.book.domain.Book
+import com.pivnoydevelopment.bookpedia.book.domain.model.Book
 import com.pivnoydevelopment.bookpedia.core.presentation.LightBlue
 import com.pivnoydevelopment.bookpedia.core.presentation.SandYellow
 import org.jetbrains.compose.resources.painterResource

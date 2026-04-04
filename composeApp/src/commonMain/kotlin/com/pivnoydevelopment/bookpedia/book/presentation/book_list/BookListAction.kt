@@ -1,6 +1,6 @@
 package com.pivnoydevelopment.bookpedia.book.presentation.book_list
 
-import com.pivnoydevelopment.bookpedia.book.domain.Book
+import com.pivnoydevelopment.bookpedia.book.domain.model.Book
 
 sealed interface BookListAction {
     data class OnSearchQueryChange(val query: String): BookListAction
