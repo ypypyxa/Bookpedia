@@ -50,7 +50,7 @@ fun BookDetailScreenRoot(
         state = state,
         onAction = { action ->
             when (action) {
-                is BookDetailAction.OnBackClick -> onBackClick
+                is BookDetailAction.OnBackClick -> onBackClick()
                 else -> Unit
             }
             viewModel.onAction(action)
@@ -164,14 +164,6 @@ private fun BookDetailScreen(
                 )
                 if (state.isLoading) {
                     CircularProgressIndicator()
-//                    Box(
-//                        modifier = Modifier
-//                            .fillMaxWidth()
-//                            .weight(1f),
-//                        contentAlignment = Alignment.Center
-//                    ) {
-//
-//                    }
                 } else {
                     Text(
                         text = if (state.book.description.isNullOrBlank()) {

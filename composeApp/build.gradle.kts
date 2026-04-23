@@ -111,7 +111,7 @@ kotlin {
 
 // -------------------- KSP --------------------
 dependencies {
-    add("kspAndroid", libs.androidx.room.compiler)
+    ksp(libs.androidx.room.compiler)
 }
 
 // -------------------- Room config --------------------
